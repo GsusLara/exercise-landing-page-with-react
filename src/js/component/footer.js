@@ -3,10 +3,19 @@ import React from "react";
 export function Footer() {
 	return (
 		<div>
-			<nav className="navbar navbar-light bg-light">
+			<nav
+				className="navbar navbar-light navbar-dark"
+				style={{ backgroundColor: "#385A48" }}>
 				<div className="container-fluid">
 					<span className="navbar-text">
-						Navbar text with an inline element
+						<span
+							style={{
+								fontFamily: "'Brush Script MT', cursive",
+								fontSize: "28px"
+							}}>
+							esecial
+						</span>
+						_Costa Rica
 					</span>
 				</div>
 			</nav>
